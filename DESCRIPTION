@@ -1,0 +1,39 @@
+Package: intact
+Type: Package
+Title: INTACT: Integration of Longitudinal Physical Activity Data from Multiple Sources
+Version: 0.1.0
+Date: 2025-08-27
+Authors@R: 
+    person("Jingru", "Zhang", 
+           email = "jr_zhang@fudan.edu.cn", 
+           role = c("aut", "cre"))
+Description: 
+    The INTACT method harmonizes longitudinal physical activity data collected 
+    from multiple sources or batches, providing integrated observations suitable 
+    for downstream analysis while preserving biologically and behaviorally 
+    relevant variation.
+Depends: 
+    R (>= 4.4.3)
+Imports: 
+    longCombat,
+    softImpute,
+    irlba,
+    broman,
+    mgcv,
+    splines,
+    quadprog,
+    lme4
+Suggests:
+    knitr,
+    rmarkdown,
+    ggplot2,
+    tidyr,
+    tidyselect,
+    patchwork,
+    ggpubr
+VignetteBuilder: knitr
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

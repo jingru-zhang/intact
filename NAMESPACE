@@ -1,0 +1,13 @@
+importFrom(longCombat,longCombat)
+importFrom(softImpute,softImpute) 
+importFrom(irlba,irlba)
+importFrom(broman,normalize)
+importFrom(mgcv,smooth.construct,gam,s)
+importFrom(splines,spline.des)
+importFrom(quadprog,solve.QP)
+importFrom(lme4,lmer,lmerControl,fixef)
+
+export(INTACT)
+export(INTACTforXW)
+export(getMVDV)
+export(fastmfpca)
