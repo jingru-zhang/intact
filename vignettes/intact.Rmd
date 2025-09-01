@@ -38,7 +38,7 @@ If you have not installed the package yet, you can install it from GitHub:
 ```{r install, eval=FALSE}
 # Install from GitHub (uncomment to run)
 # install.packages("devtools")
-# devtools::install_github("jingru-zhang/intact")
+# devtools::install_github("jingru-zhang/intact", build_vignettes = TRUE)
 ```
 
 Load the package:
