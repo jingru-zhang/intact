@@ -13,6 +13,8 @@ install.packages("devtools")
 # Install intact from GitHub
 devtools::install_github("jingru-zhang/intact", build_vignettes = TRUE)
 ```
+## Maintainer
+Jingru Zhang (jr_zhang@fudan.edu.cn)
 
 ## Example
 
