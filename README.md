@@ -11,7 +11,7 @@ You can install the development version from GitHub:
 install.packages("devtools")
 
 # Install intact from GitHub
-devtools::install_github("jingru-zhang/intact")
+devtools::install_github("jingru-zhang/intact", build_vignettes = TRUE)
 ```
 
 ## Example
